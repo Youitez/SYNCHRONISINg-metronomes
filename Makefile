@@ -12,3 +12,4 @@ $(PROJ_NAME):
 .PHONY: clean
 
 clean:
+	rm $(BIN_DIR)/$(PROJ_NAME) -r
