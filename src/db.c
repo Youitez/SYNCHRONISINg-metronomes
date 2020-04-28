@@ -5,3 +5,8 @@
 #include <unistd.h>
 
 #include <libpq-fe.h>
+
+#include "db.h"
+
+void foo(void)
+{
