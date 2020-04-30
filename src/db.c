@@ -22,3 +22,9 @@ int get_slug_from_id(int id, char* slug)
   
   // db variables
   PGconn* db;
+  PGresult* res;
+  
+  // strings
+  char lookup_query[128];
+  
+  // connect to db
