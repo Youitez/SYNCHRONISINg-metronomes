@@ -32,3 +32,5 @@ int get_slug_from_id(int id, char* slug)
   
   if(PQstatus(db) == CONNECTION_BAD)
   {
+    fprintf(stderr, "[ERROR] Failed to connect to the PostgreSQL database.\n");
+    
