@@ -34,3 +34,5 @@ int get_slug_from_id(int id, char* slug)
   {
     fprintf(stderr, "[ERROR] Failed to connect to the PostgreSQL database.\n");
     
+    return EXIT_FAILURE;
+  }
