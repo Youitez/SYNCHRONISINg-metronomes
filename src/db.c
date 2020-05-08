@@ -37,3 +37,4 @@ int get_slug_from_id(int id, char* slug)
     return EXIT_FAILURE;
   }
   
+  sprintf(lookup_query, "SELECT id, slug FROM manifest WHERE id = %d;", id);
