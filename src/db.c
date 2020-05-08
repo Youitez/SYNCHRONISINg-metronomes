@@ -36,3 +36,4 @@ int get_slug_from_id(int id, char* slug)
     
     return EXIT_FAILURE;
   }
+  
