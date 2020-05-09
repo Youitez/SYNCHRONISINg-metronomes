@@ -40,3 +40,6 @@ int get_slug_from_id(int id, char* slug)
   sprintf(lookup_query, "SELECT id, slug FROM manifest WHERE id = %d;", id);
   
   res = PQexec(db, lookup_query);
+  
+  if(PQresultStatus(res) != PGRES_TUPLES_OK)
+  {
