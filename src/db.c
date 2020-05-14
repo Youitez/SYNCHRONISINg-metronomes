@@ -46,3 +46,7 @@ int get_slug_from_id(int id, char* slug)
     fprintf(stderr, "[ERROR] Failed to query PostgreSQL database.\n");
     
     return EXIT_FAILURE;
+  }
+  
+  records = PQntuples(res);
+  
