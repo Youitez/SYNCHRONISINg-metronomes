@@ -50,3 +50,8 @@ int get_slug_from_id(int id, char* slug)
   
   records = PQntuples(res);
   
+  for(i=0;i<records;i++)
+  { 
+    for(j=0;j<2;j++)
+    {
+      if(j == 1)
