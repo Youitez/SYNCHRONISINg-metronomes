@@ -59,3 +59,5 @@ int get_slug_from_id(int id, char* slug)
         memcpy((void*)slug, (void*)PQgetvalue(res, i, j), PQgetlength(res, i, j));
         slug[PQgetlength(res, i, j)] = '\0';
       }
+    }
+  }
