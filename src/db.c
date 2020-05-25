@@ -70,3 +70,6 @@ int get_slug_from_id(int id, char* slug)
 // Perform lookup on manifest table to find slug from a given id
 int get_name_from_id(int id, char* name)
 {
+  int i = 0;
+  int j = 0;
+  int records = 0;
