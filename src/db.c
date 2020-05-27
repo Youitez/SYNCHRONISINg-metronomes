@@ -81,3 +81,8 @@ int get_name_from_id(int id, char* name)
   // strings
   char lookup_query[128];
   
+  // connect to db
+  db = PQconnectdb("dbname=equities user=jmcph4");
+  
+  if(PQstatus(db) == CONNECTION_BAD)
+  {
