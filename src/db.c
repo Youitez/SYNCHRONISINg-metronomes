@@ -74,3 +74,7 @@ int get_name_from_id(int id, char* name)
   int j = 0;
   int records = 0;
   
+  // db variables
+  PGconn* db;
+  PGresult* res;
+  
