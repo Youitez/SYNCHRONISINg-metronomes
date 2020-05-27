@@ -78,3 +78,6 @@ int get_name_from_id(int id, char* name)
   PGconn* db;
   PGresult* res;
   
+  // strings
+  char lookup_query[128];
+  
