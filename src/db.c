@@ -90,3 +90,6 @@ int get_name_from_id(int id, char* name)
     
     return EXIT_FAILURE;
   }
+  
+  sprintf(lookup_query, "SELECT id, name FROM manifest WHERE id = %d;", id);
+  
