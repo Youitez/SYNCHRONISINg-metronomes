@@ -89,3 +89,4 @@ int get_name_from_id(int id, char* name)
     fprintf(stderr, "[ERROR] Failed to connect to the PostgreSQL database.\n");
     
     return EXIT_FAILURE;
+  }
