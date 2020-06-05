@@ -93,3 +93,5 @@ int get_name_from_id(int id, char* name)
   
   sprintf(lookup_query, "SELECT id, name FROM manifest WHERE id = %d;", id);
   
+  res = PQexec(db, lookup_query);
+  
