@@ -98,3 +98,5 @@ int get_name_from_id(int id, char* name)
   if(PQresultStatus(res) != PGRES_TUPLES_OK)
   {
     fprintf(stderr, "[ERROR] Failed to query PostgreSQL database.\n");
+    
+    return EXIT_FAILURE;
