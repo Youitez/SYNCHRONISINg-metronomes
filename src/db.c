@@ -113,3 +113,5 @@ int get_name_from_id(int id, char* name)
         memcpy((void*)name, (void*)PQgetvalue(res, i, j), PQgetlength(res, i, j));
         name[PQgetlength(res, i, j)] = '\0';
       }
+    }
+  }
