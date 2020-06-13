@@ -115,3 +115,5 @@ int get_name_from_id(int id, char* name)
       }
     }
   }
+  
+  PQclear(res);
