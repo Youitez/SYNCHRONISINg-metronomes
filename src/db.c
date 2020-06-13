@@ -117,3 +117,8 @@ int get_name_from_id(int id, char* name)
   }
   
   PQclear(res);
+  
+  return EXIT_SUCCESS;
+}
+
+// Perform lookup on manifest table to find slug from a given id
