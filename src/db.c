@@ -122,3 +122,6 @@ int get_name_from_id(int id, char* name)
 }
 
 // Perform lookup on manifest table to find slug from a given id
+int get_ticker_from_id(int id, char* ticker)
+{
+  int i = 0;
