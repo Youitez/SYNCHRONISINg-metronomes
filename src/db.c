@@ -125,3 +125,10 @@ int get_name_from_id(int id, char* name)
 int get_ticker_from_id(int id, char* ticker)
 {
   int i = 0;
+  int j = 0;
+  int records = 0;
+  
+  // db variables
+  PGconn* db;
+  PGresult* res;
+  
