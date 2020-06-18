@@ -132,3 +132,6 @@ int get_ticker_from_id(int id, char* ticker)
   PGconn* db;
   PGresult* res;
   
+  // strings
+  char lookup_query[128];
+  
