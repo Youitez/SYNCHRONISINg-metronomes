@@ -138,3 +138,4 @@ int get_ticker_from_id(int id, char* ticker)
   // connect to db
   db = PQconnectdb("dbname=equities user=jmcph4");
   
+  if(PQstatus(db) == CONNECTION_BAD)
