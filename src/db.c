@@ -144,3 +144,7 @@ int get_ticker_from_id(int id, char* ticker)
     
     return EXIT_FAILURE;
   }
+  
+  sprintf(lookup_query, "SELECT id, ticker FROM manifest WHERE id = %d;", id);
+  
+  res = PQexec(db, lookup_query);
