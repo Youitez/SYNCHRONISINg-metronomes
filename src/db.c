@@ -142,3 +142,5 @@ int get_ticker_from_id(int id, char* ticker)
   {
     fprintf(stderr, "[ERROR] Failed to connect to the PostgreSQL database.\n");
     
+    return EXIT_FAILURE;
+  }
