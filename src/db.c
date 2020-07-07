@@ -152,3 +152,4 @@ int get_ticker_from_id(int id, char* ticker)
   if(PQresultStatus(res) != PGRES_TUPLES_OK)
   {
     fprintf(stderr, "[ERROR] Failed to query PostgreSQL database.\n");
+    
