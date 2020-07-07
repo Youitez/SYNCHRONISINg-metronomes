@@ -153,3 +153,8 @@ int get_ticker_from_id(int id, char* ticker)
   {
     fprintf(stderr, "[ERROR] Failed to query PostgreSQL database.\n");
     
+    return EXIT_FAILURE;
+  }
+  
+  records = PQntuples(res);
+  
