@@ -162,3 +162,5 @@ int get_ticker_from_id(int id, char* ticker)
   { 
     for(j=0;j<2;j++)
     {
+      if(j == 1)
+      {
