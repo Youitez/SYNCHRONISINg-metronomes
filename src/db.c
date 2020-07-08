@@ -160,3 +160,4 @@ int get_ticker_from_id(int id, char* ticker)
   
   for(i=0;i<records;i++)
   { 
+    for(j=0;j<2;j++)
