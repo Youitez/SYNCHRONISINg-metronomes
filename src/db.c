@@ -158,3 +158,5 @@ int get_ticker_from_id(int id, char* ticker)
   
   records = PQntuples(res);
   
+  for(i=0;i<records;i++)
+  { 
