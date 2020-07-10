@@ -169,3 +169,6 @@ int get_ticker_from_id(int id, char* ticker)
       }
     }
   }
+  
+  PQclear(res);
+  
