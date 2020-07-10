@@ -164,3 +164,4 @@ int get_ticker_from_id(int id, char* ticker)
     {
       if(j == 1)
       {
+        memcpy((void*)ticker, (void*)PQgetvalue(res, i, j), PQgetlength(res, i, j));
