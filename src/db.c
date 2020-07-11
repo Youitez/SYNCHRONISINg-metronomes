@@ -180,3 +180,5 @@ int get_id_from_ticker(char* ticker)
   int i = 0;
   int j = 0;
   int records = 0;
+  int id = 0;
+  
