@@ -172,3 +172,7 @@ int get_ticker_from_id(int id, char* ticker)
   
   PQclear(res);
   
+  return EXIT_SUCCESS;
+}
+
+int get_id_from_ticker(char* ticker)
