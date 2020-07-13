@@ -182,3 +182,7 @@ int get_id_from_ticker(char* ticker)
   int records = 0;
   int id = 0;
   
+  // db variables
+  PGconn* db;
+  PGresult* res;
+  
