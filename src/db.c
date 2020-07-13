@@ -186,3 +186,7 @@ int get_id_from_ticker(char* ticker)
   PGconn* db;
   PGresult* res;
   
+  // strings
+  char lookup_query[128];
+  char* id_string;
+  
