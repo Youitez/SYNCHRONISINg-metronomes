@@ -190,3 +190,4 @@ int get_id_from_ticker(char* ticker)
   char lookup_query[128];
   char* id_string;
   
+  // connect to db
