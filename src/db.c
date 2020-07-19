@@ -198,3 +198,7 @@ int get_id_from_ticker(char* ticker)
     fprintf(stderr, "[ERROR] Failed to connect to the PostgreSQL database.\n");
     
     return EXIT_FAILURE;
+  }
+  
+  sprintf(lookup_query, "SELECT id, ticker FROM manifest WHERE ticker = '%s';", ticker);
+  
