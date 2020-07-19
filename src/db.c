@@ -202,3 +202,6 @@ int get_id_from_ticker(char* ticker)
   
   sprintf(lookup_query, "SELECT id, ticker FROM manifest WHERE ticker = '%s';", ticker);
   
+  res = PQexec(db, lookup_query);
+  
+  if(PQresultStatus(res) != PGRES_TUPLES_OK)
