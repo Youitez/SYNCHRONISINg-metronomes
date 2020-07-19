@@ -194,3 +194,7 @@ int get_id_from_ticker(char* ticker)
   db = PQconnectdb("dbname=equities user=jmcph4");
   
   if(PQstatus(db) == CONNECTION_BAD)
+  {
+    fprintf(stderr, "[ERROR] Failed to connect to the PostgreSQL database.\n");
+    
+    return EXIT_FAILURE;
