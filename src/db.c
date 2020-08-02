@@ -207,3 +207,7 @@ int get_id_from_ticker(char* ticker)
   if(PQresultStatus(res) != PGRES_TUPLES_OK)
   {
     fprintf(stderr, "[ERROR] Failed to query PostgreSQL database.\n");
+    
+    return EXIT_FAILURE;
+  }
+  
