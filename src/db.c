@@ -211,3 +211,4 @@ int get_id_from_ticker(char* ticker)
     return EXIT_FAILURE;
   }
   
+  records = PQntuples(res);
