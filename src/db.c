@@ -223,3 +223,7 @@ int get_id_from_ticker(char* ticker)
         memcpy((void*)id_string, (void*)PQgetvalue(res, i, j), PQgetlength(res, i, j));
         id_string[PQgetlength(res, i, j)] = '\0';
       }
+    }
+  }
+  
+  id = atoi(id_string);
