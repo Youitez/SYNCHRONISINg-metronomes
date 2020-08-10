@@ -227,3 +227,6 @@ int get_id_from_ticker(char* ticker)
   }
   
   id = atoi(id_string);
+  
+  PQclear(res);
+  
