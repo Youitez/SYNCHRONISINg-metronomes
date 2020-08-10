@@ -220,3 +220,6 @@ int get_id_from_ticker(char* ticker)
       if(j == 0)
       {
 	id_string = malloc(PQgetlength(res, i, j) * sizeof(char));
+        memcpy((void*)id_string, (void*)PQgetvalue(res, i, j), PQgetlength(res, i, j));
+        id_string[PQgetlength(res, i, j)] = '\0';
+      }
