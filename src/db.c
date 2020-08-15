@@ -236,3 +236,4 @@ int get_id_from_ticker(char* ticker)
 }
 
 // Retrieve a security by id
+int load_ts(int id, long long** timestamp, int** open, int** high, int** low, int** close, int** volume)
