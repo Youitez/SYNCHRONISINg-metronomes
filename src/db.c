@@ -233,3 +233,4 @@ int get_id_from_ticker(char* ticker)
   free(id_string);
   
   return id;
+}
