@@ -234,3 +234,5 @@ int get_id_from_ticker(char* ticker)
   
   return id;
 }
+
+// Retrieve a security by id
