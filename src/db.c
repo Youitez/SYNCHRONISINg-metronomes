@@ -230,3 +230,6 @@ int get_id_from_ticker(char* ticker)
   
   PQclear(res);
   
+  free(id_string);
+  
+  return id;
