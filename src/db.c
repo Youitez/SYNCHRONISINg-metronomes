@@ -242,3 +242,8 @@ int load_ts(int id, long long** timestamp, int** open, int** high, int** low, in
   int j = 0;
   int records = 0;
   
+  // db variables
+  PGconn* db;
+  PGresult* res;
+  
+  // strings
