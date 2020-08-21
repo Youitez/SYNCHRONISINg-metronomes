@@ -248,3 +248,6 @@ int load_ts(int id, long long** timestamp, int** open, int** high, int** low, in
   
   // strings
   char slug[128];
+  char series_query[128];
+  
+  // connect to db
