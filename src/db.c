@@ -251,3 +251,7 @@ int load_ts(int id, long long** timestamp, int** open, int** high, int** low, in
   char series_query[128];
   
   // connect to db
+  db = PQconnectdb("dbname=equities user=jmcph4");
+  
+  if(PQstatus(db) == CONNECTION_BAD)
+  {
