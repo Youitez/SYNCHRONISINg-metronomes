@@ -262,3 +262,5 @@ int load_ts(int id, long long** timestamp, int** open, int** high, int** low, in
   
   get_slug_from_id(id, slug);
   
+  // query appropriate table for time series data
+  
