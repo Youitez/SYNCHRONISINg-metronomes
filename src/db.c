@@ -266,3 +266,4 @@ int load_ts(int id, long long** timestamp, int** open, int** high, int** low, in
   
   sprintf(series_query, "SELECT extract(epoch from timestamp), open, high, low, close, volume FROM %s;", slug);
   
+  res = PQexec(db, series_query);
