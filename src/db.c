@@ -271,3 +271,6 @@ int load_ts(int id, long long** timestamp, int** open, int** high, int** low, in
   if(PQresultStatus(res) != PGRES_TUPLES_OK)
   {
     fprintf(stderr, "[ERROR] Failed to query PostgreSQL database.\n");
+    
+    return EXIT_FAILURE;
+  }
