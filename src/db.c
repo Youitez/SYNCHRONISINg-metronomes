@@ -275,3 +275,4 @@ int load_ts(int id, long long** timestamp, int** open, int** high, int** low, in
     return EXIT_FAILURE;
   }
   
+  records = PQntuples(res);
