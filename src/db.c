@@ -267,3 +267,7 @@ int load_ts(int id, long long** timestamp, int** open, int** high, int** low, in
   sprintf(series_query, "SELECT extract(epoch from timestamp), open, high, low, close, volume FROM %s;", slug);
   
   res = PQexec(db, series_query);
+  
+  if(PQresultStatus(res) != PGRES_TUPLES_OK)
+  {
+    fprintf(stderr, "[ERROR] Failed to query PostgreSQL database.\n");
