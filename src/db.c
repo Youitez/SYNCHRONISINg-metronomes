@@ -283,3 +283,6 @@ int load_ts(int id, long long** timestamp, int** open, int** high, int** low, in
   
   if(*timestamp == NULL)
   {
+    fprintf(stderr, "[ERROR] Failed to allocate memory.\n");
+    
+    return EXIT_FAILURE;
