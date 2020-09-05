@@ -286,3 +286,6 @@ int load_ts(int id, long long** timestamp, int** open, int** high, int** low, in
     fprintf(stderr, "[ERROR] Failed to allocate memory.\n");
     
     return EXIT_FAILURE;
+  }
+  
+  *open = malloc(records * sizeof(int));
