@@ -289,3 +289,4 @@ int load_ts(int id, long long** timestamp, int** open, int** high, int** low, in
   }
   
   *open = malloc(records * sizeof(int));
+  
