@@ -317,3 +317,7 @@ int load_ts(int id, long long** timestamp, int** open, int** high, int** low, in
   
   *close = malloc(records * sizeof(int));
   
+  if(*close == NULL)
+  {
+    fprintf(stderr, "[ERROR] Failed to allocate memory.\n");
+    
