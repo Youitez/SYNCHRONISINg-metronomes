@@ -333,3 +333,6 @@ int load_ts(int id, long long** timestamp, int** open, int** high, int** low, in
     return EXIT_FAILURE;
   }
   
+  // handle results
+  
+  for(i=0;i<records;i++)
