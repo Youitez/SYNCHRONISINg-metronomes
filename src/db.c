@@ -336,3 +336,6 @@ int load_ts(int id, long long** timestamp, int** open, int** high, int** low, in
   // handle results
   
   for(i=0;i<records;i++)
+  {
+    for(j=0;j<6;j++)
+    {      
