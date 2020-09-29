@@ -339,3 +339,9 @@ int load_ts(int id, long long** timestamp, int** open, int** high, int** low, in
   {
     for(j=0;j<6;j++)
     {      
+      switch(j)
+      {
+        case 0:
+          timestamp[0][i] = atol(PQgetvalue(res, i, j));
+          break;
+        case 1:
