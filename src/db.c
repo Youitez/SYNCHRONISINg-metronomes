@@ -351,3 +351,5 @@ int load_ts(int id, long long** timestamp, int** open, int** high, int** low, in
           high[0][i] = atoi(PQgetvalue(res, i, j));
 	  break;
         case 3:
+          low[0][i] = atoi(PQgetvalue(res, i, j));
+          break;
