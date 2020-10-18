@@ -373,3 +373,4 @@ int load_ts(int id, long long** timestamp, int** open, int** high, int** low, in
 }
 
 int get_row_count_from_slug(char* slug)
+{
