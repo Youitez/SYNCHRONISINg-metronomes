@@ -380,3 +380,5 @@ int get_row_count_from_slug(char* slug)
   int count = 0;
   
   // db variables
+  PGconn* db;
+  PGresult* res;
