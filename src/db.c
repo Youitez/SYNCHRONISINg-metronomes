@@ -377,3 +377,6 @@ int get_row_count_from_slug(char* slug)
   int i = 0;
   int j = 0;
   int records = 0;
+  int count = 0;
+  
+  // db variables
