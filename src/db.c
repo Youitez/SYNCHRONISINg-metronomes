@@ -385,3 +385,7 @@ int get_row_count_from_slug(char* slug)
   
   // strings
   char lookup_query[128];
+  char* count_string;
+  
+  // connect to db
+  db = PQconnectdb("dbname=equities user=jmcph4");
