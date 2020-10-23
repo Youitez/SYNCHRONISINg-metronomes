@@ -389,3 +389,6 @@ int get_row_count_from_slug(char* slug)
   
   // connect to db
   db = PQconnectdb("dbname=equities user=jmcph4");
+  
+  if(PQstatus(db) == CONNECTION_BAD)
+  {
