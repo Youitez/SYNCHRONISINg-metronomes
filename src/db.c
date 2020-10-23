@@ -395,3 +395,7 @@ int get_row_count_from_slug(char* slug)
     fprintf(stderr, "[ERROR] Failed to connect to the PostgreSQL database.\n");
     
     return EXIT_FAILURE;
+  }
+  
+  sprintf(lookup_query, "SELECT COUNT(*) FROM %s;", slug);
+  
