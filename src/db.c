@@ -392,3 +392,5 @@ int get_row_count_from_slug(char* slug)
   
   if(PQstatus(db) == CONNECTION_BAD)
   {
+    fprintf(stderr, "[ERROR] Failed to connect to the PostgreSQL database.\n");
+    
