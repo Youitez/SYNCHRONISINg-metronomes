@@ -402,3 +402,8 @@ int get_row_count_from_slug(char* slug)
   res = PQexec(db, lookup_query);
   
   if(PQresultStatus(res) != PGRES_TUPLES_OK)
+  {
+    fprintf(stderr, "[ERROR] Failed to query PostgreSQL database.\n");
+    
+    return EXIT_FAILURE;
+  }
