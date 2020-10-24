@@ -399,3 +399,5 @@ int get_row_count_from_slug(char* slug)
   
   sprintf(lookup_query, "SELECT COUNT(*) FROM %s;", slug);
   
+  res = PQexec(db, lookup_query);
+  
