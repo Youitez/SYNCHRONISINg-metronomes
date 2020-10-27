@@ -407,3 +407,5 @@ int get_row_count_from_slug(char* slug)
     
     return EXIT_FAILURE;
   }
+  
+  records = PQntuples(res);
