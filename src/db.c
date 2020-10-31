@@ -409,3 +409,5 @@ int get_row_count_from_slug(char* slug)
   }
   
   records = PQntuples(res);
+  
+  for(i=0;i<records;i++)
