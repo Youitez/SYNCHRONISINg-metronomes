@@ -414,3 +414,6 @@ int get_row_count_from_slug(char* slug)
   { 
     for(j=0;j<2;j++)
     {
+      if(j == 0)
+      {
+        count_string = malloc(PQgetlength(res, i, j) * sizeof(char));
