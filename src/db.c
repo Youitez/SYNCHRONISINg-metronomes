@@ -417,3 +417,5 @@ int get_row_count_from_slug(char* slug)
       if(j == 0)
       {
         count_string = malloc(PQgetlength(res, i, j) * sizeof(char));
+        memcpy((void*)count_string, (void*)PQgetvalue(res, i, j), PQgetlength(res, i, j));
+        count_string[PQgetlength(res, i, j)] = '\0';
