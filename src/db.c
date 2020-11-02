@@ -421,3 +421,9 @@ int get_row_count_from_slug(char* slug)
         count_string[PQgetlength(res, i, j)] = '\0';
       }
     }
+  }
+  
+  count = atoi(count_string);
+  
+  free(count_string);
+  
