@@ -427,3 +427,5 @@ int get_row_count_from_slug(char* slug)
   
   free(count_string);
   
+  return count;
+}
