@@ -2,4 +2,4 @@
 #include <stdlib.h>
 #include <string.h>
 
-#include <libpq-
+#include <libpq-fe.h>
