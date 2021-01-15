@@ -7,4 +7,4 @@
 #include "db.h"
 #include "ts.h"
 
-#define TO
+#define TOTA
