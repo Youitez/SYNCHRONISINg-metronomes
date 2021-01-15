@@ -7,4 +7,4 @@
 #include "db.h"
 #include "ts.h"
 
-#define TOTAL
+#define TOTAL 73
