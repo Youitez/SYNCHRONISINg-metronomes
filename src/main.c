@@ -9,4 +9,4 @@
 
 #define TOTAL 7394
 
-int main(int a
+int main(int ar
