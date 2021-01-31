@@ -9,4 +9,4 @@
 
 #define TOTAL 7394
 
-int main(int argc, char
+int main(int argc, char*
