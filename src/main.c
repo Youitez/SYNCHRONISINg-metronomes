@@ -13,4 +13,4 @@ int main(int argc, char** argv)
 {
   if(argc != 2)
   {
-    printf("Usage: %s ti
+    printf("Usage: %s tic
