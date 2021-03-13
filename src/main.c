@@ -15,4 +15,4 @@ int main(int argc, char** argv)
   {
     printf("Usage: %s ticker\n", argv[0]);
     
-    return EXIT_SUCCE
+    return EXIT_SUCCES
