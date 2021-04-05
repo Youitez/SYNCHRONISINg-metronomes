@@ -19,4 +19,4 @@ int main(int argc, char** argv)
   }
   
   int res = 0;
-  int num_rows = 
+  int num_rows = 0
