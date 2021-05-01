@@ -23,4 +23,4 @@ int main(int argc, char** argv)
   
   long long* timestamp;
   int* open;
-  in
+  int* 
