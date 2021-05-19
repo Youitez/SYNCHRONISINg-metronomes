@@ -25,4 +25,4 @@ int main(int argc, char** argv)
   int* open;
   int* high;
   int* low;
-  int
+  int* clo
