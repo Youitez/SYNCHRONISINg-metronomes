@@ -26,4 +26,4 @@ int main(int argc, char** argv)
   int* high;
   int* low;
   int* close;
-  int* volu
+  int* volume;
