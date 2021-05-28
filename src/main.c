@@ -27,3 +27,4 @@ int main(int argc, char** argv)
   int* low;
   int* close;
   int* volume;
+  cha
