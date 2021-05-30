@@ -27,4 +27,4 @@ int main(int argc, char** argv)
   int* low;
   int* close;
   int* volume;
-  char name
+  char name[1
