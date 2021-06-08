@@ -29,3 +29,4 @@ int main(int argc, char** argv)
   int* volume;
   char name[128];
   char ticker[128];
+  
