@@ -29,4 +29,4 @@ int main(int argc, char** argv)
   int* volume;
   char name[128];
   char ticker[128];
-  int id = 0
+  int id = 0;
