@@ -30,4 +30,4 @@ int main(int argc, char** argv)
   char name[128];
   char ticker[128];
   int id = 0;
-  char* sl
+  char* slu
