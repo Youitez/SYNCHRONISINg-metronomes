@@ -32,4 +32,4 @@ int main(int argc, char** argv)
   int id = 0;
   char* slug = malloc(64 * sizeof(char));
   
-  /**************
+  /****************
