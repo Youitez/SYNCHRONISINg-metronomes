@@ -34,4 +34,4 @@ int main(int argc, char** argv)
   
   /***************************************************************************/
   
-  id = get_id_from_t
+  id = get_id_from_ti
