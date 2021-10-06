@@ -34,4 +34,4 @@ int main(int argc, char** argv)
   
   /***************************************************************************/
   
-  id = get_id_from_ticker(argv[1])
+  id = get_id_from_ticker(argv[1]);
