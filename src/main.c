@@ -36,4 +36,4 @@ int main(int argc, char** argv)
   
   id = get_id_from_ticker(argv[1]);
   get_slug_from_id(id, slug);
-  num_rows = get_row_count_from_slug(
+  num_rows = get_row_count_from_slug(slug)
