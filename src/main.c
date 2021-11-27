@@ -38,4 +38,4 @@ int main(int argc, char** argv)
   get_slug_from_id(id, slug);
   num_rows = get_row_count_from_slug(slug);
   
-  res = load_ts(id, &timestamp, &open, &high, &low,
+  res = load_ts(id, &timestamp, &open, &high, &low, 
