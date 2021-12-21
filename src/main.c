@@ -40,3 +40,5 @@ int main(int argc, char** argv)
   
   res = load_ts(id, &timestamp, &open, &high, &low, 
                 &close, &volume);
+  
+ 
