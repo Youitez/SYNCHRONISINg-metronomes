@@ -41,4 +41,5 @@ int main(int argc, char** argv)
   res = load_ts(id, &timestamp, &open, &high, &low, 
                 &close, &volume);
   
-  if(res == EXIT_FAILURE
+  if(res == EXIT_FAILURE)
+ 
