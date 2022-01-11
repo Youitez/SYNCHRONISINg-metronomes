@@ -42,4 +42,4 @@ int main(int argc, char** argv)
                 &close, &volume);
   
   if(res == EXIT_FAILURE)
- 
+  {
