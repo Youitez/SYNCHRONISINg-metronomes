@@ -46,4 +46,4 @@ int main(int argc, char** argv)
     return EXIT_FAILURE;
   }
   
-  get
+  get_nam
