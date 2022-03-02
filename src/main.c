@@ -46,4 +46,4 @@ int main(int argc, char** argv)
     return EXIT_FAILURE;
   }
   
-  get_name_from_i
+  get_name_from_id(id, 
