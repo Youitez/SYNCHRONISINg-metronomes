@@ -47,4 +47,4 @@ int main(int argc, char** argv)
   }
   
   get_name_from_id(id, name);
-  get_ticker_from_id(id, ticker)
+  get_ticker_from_id(id, ticker);
