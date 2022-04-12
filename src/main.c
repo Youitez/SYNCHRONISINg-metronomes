@@ -50,4 +50,4 @@ int main(int argc, char** argv)
   get_ticker_from_id(id, ticker);
   
   printf("--- QUOTE FOR %s ---\n", ticker);
-  printf
+  printf("
