@@ -52,4 +52,4 @@ int main(int argc, char** argv)
   printf("--- QUOTE FOR %s ---\n", ticker);
   printf("Name:         %s\n", name);
   printf("Latest Price: $%.2f\n", (float)(close[0]/100));
-  printf("Mean Price:   $%.2f\n", get_mean(close, num_r
+  printf("Mean Price:   $%.2f\n", get_mean(close, num_rows
