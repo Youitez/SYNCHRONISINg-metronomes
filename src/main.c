@@ -53,4 +53,4 @@ int main(int argc, char** argv)
   printf("Name:         %s\n", name);
   printf("Latest Price: $%.2f\n", (float)(close[0]/100));
   printf("Mean Price:   $%.2f\n", get_mean(close, num_rows)/100);
-  printf("Min. Pr
+  printf("Min. Pri
