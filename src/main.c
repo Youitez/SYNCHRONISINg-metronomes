@@ -55,4 +55,4 @@ int main(int argc, char** argv)
   printf("Mean Price:   $%.2f\n", get_mean(close, num_rows)/100);
   printf("Min. Price:   $%.2f\n", (float)get_min(close, num_rows)/100);
   printf("Max. Price:   $%.2f\n", (float)get_max(close, num_rows)/100);
-  printf("Std. Dev.:    $%.2f\n", get_stddev(close, num_row
+  printf("Std. Dev.:    $%.2f\n", get_stddev(close, num_rows)/
