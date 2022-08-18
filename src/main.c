@@ -57,3 +57,5 @@ int main(int argc, char** argv)
   printf("Max. Price:   $%.2f\n", (float)get_max(close, num_rows)/100);
   printf("Std. Dev.:    $%.2f\n", get_stddev(close, num_rows)/100);
   printf("\n\n\n");
+  
+  
