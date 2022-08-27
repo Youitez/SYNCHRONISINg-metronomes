@@ -58,4 +58,4 @@ int main(int argc, char** argv)
   printf("Std. Dev.:    $%.2f\n", get_stddev(close, num_rows)/100);
   printf("\n\n\n");
   
-  if(close[0] < get_mean(close,
+  if(close[0] < get_mean(close, 
