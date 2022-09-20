@@ -60,4 +60,4 @@ int main(int argc, char** argv)
   
   if(close[0] < get_mean(close, num_rows))
   {
-    printf("Security is currently trading $%.2
+    printf("Security is currently trading $%.2f belo
