@@ -64,3 +64,4 @@ int main(int argc, char** argv)
            (get_mean(close, num_rows)/100) - ((float)(close[0]/100)));
   }
   else if(close[0] >= get_mean(close, num_rows))
+ 
