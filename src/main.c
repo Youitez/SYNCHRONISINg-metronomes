@@ -68,3 +68,4 @@ int main(int argc, char** argv)
     printf("Security is currently trading $%.2f above historical averages.\n", 
            (float)((close[0] - get_mean(close, num_rows))/100));
   }
+ 
