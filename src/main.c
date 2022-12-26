@@ -69,4 +69,4 @@ int main(int argc, char** argv)
            (float)((close[0] - get_mean(close, num_rows))/100));
   }
   
-  /**********
+  /************
