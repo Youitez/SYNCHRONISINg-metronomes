@@ -72,4 +72,4 @@ int main(int argc, char** argv)
   /***************************************************************************/
   
   free(slug);
-  free(timestam
+  free(timestamp
