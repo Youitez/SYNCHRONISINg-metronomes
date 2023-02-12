@@ -75,4 +75,4 @@ int main(int argc, char** argv)
   free(timestamp);
   free(open);
   free(high);
-  free(
+  free(lo
