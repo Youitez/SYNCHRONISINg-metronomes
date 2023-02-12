@@ -74,4 +74,5 @@ int main(int argc, char** argv)
   free(slug);
   free(timestamp);
   free(open);
-  free(high
+  free(high);
+ 
