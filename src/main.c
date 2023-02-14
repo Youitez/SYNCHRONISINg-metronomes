@@ -76,3 +76,4 @@ int main(int argc, char** argv)
   free(open);
   free(high);
   free(low);
+  f
