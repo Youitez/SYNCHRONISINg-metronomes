@@ -77,4 +77,4 @@ int main(int argc, char** argv)
   free(high);
   free(low);
   free(close);
-  free(vo
+  free(volu
