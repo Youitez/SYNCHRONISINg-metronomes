@@ -78,3 +78,4 @@ int main(int argc, char** argv)
   free(low);
   free(close);
   free(volume);
+  
