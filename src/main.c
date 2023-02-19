@@ -80,4 +80,4 @@ int main(int argc, char** argv)
   free(volume);
   
   
-  return EXIT_SUCCES
+  return EXIT_SUCCESS;
