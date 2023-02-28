@@ -14,3 +14,6 @@ double get_mean(int* series, int n)
   {
     sum += series[i];
   }
+  
+  mean = sum / n;
+  
