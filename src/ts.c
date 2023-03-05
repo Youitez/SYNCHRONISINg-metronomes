@@ -19,3 +19,9 @@ double get_mean(int* series, int n)
   
   return mean;
 }
+
+int get_min(int* series, int n)
+{
+  int i = 0;
+  int min = 0;
+  
