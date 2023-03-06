@@ -25,3 +25,5 @@ int get_min(int* series, int n)
   int i = 0;
   int min = 0;
   
+  for(i=0;i<n;i++)
+  {
