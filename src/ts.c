@@ -30,3 +30,4 @@ int get_min(int* series, int n)
     if(i == 0)
     {
       min = series[i];
+    }
