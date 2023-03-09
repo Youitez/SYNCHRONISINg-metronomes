@@ -45,3 +45,4 @@ int get_max(int* series, int n)
 {
   int i = 0;
   int max = 0;
+  
