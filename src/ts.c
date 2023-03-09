@@ -40,3 +40,8 @@ int get_min(int* series, int n)
   
   return min;
 }
+
+int get_max(int* series, int n)
+{
+  int i = 0;
+  int max = 0;
