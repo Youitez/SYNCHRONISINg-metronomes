@@ -37,3 +37,6 @@ int get_min(int* series, int n)
       min = series[i];
     }
   }
+  
+  return min;
+}
