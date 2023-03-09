@@ -31,3 +31,7 @@ int get_min(int* series, int n)
     {
       min = series[i];
     }
+    
+    if(series[i] < min)
+    {
+      min = series[i];
