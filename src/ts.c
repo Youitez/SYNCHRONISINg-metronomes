@@ -49,3 +49,5 @@ int get_max(int* series, int n)
   for(i=0;i<n;i++)
   {
     if(i == 0)
+    {
+      max = series[i];
