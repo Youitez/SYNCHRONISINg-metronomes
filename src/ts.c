@@ -55,3 +55,4 @@ int get_max(int* series, int n)
     
     if(series[i] > max)
     {
+      max = series[i];
