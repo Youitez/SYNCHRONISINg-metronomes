@@ -61,3 +61,6 @@ int get_max(int* series, int n)
   
   return max;
 }
+
+int get_range(int* series, int n)
+{
