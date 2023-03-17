@@ -78,3 +78,5 @@ double get_stddev(int* series, int n)
   
   int* deviations = malloc(n * sizeof(int));
   
+  for(i=0;i<n;i++)
+  {
