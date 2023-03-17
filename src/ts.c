@@ -73,3 +73,8 @@ int get_range(int* series, int n)
 
 double get_stddev(int* series, int n)
 {
+  int i = 0;
+  double average = get_mean(series, n);
+  
+  int* deviations = malloc(n * sizeof(int));
+  
