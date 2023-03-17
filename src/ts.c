@@ -80,3 +80,8 @@ double get_stddev(int* series, int n)
   
   for(i=0;i<n;i++)
   {
+    deviations[i] = abs(series[i] - average);
+  }
+  
+  double variance = get_mean(deviations, n);
+  
