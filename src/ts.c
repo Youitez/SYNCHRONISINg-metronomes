@@ -70,3 +70,6 @@ int get_range(int* series, int n)
   
   return range;
 }
+
+double get_stddev(int* series, int n)
+{
