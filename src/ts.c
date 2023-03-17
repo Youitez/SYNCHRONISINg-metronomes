@@ -65,3 +65,5 @@ int get_max(int* series, int n)
 int get_range(int* series, int n)
 {
   int range = 0;
+  
+  range = get_max(series, n) - get_min(series, n);
