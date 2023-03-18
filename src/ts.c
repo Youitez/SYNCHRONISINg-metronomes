@@ -85,3 +85,7 @@ double get_stddev(int* series, int n)
   
   double variance = get_mean(deviations, n);
   
+  double sigma = sqrt(variance);
+  
+  return sigma;
+}
