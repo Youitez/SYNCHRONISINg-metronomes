@@ -89,3 +89,7 @@ double get_stddev(int* series, int n)
   
   return sigma;
 }
+
+double get_SMA(int* series, int n, int m)
+{
+  int i = 0;
