@@ -93,3 +93,4 @@ double get_stddev(int* series, int n)
 double get_SMA(int* series, int n, int m)
 {
   int i = 0;
+  int sum = 0;
