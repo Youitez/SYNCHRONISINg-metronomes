@@ -94,3 +94,5 @@ double get_SMA(int* series, int n, int m)
 {
   int i = 0;
   int sum = 0;
+  double sma = 0.0;
+  
