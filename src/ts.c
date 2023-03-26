@@ -98,3 +98,5 @@ double get_SMA(int* series, int n, int m)
   
   if(m <= n && m > 0)
   {
+    for(i=0;i<m;i++)
+    {
