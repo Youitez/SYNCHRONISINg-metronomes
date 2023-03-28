@@ -100,3 +100,5 @@ double get_SMA(int* series, int n, int m)
   {
     for(i=0;i<m;i++)
     {
+      sum += series[i];
+    }  
