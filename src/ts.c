@@ -102,3 +102,5 @@ double get_SMA(int* series, int n, int m)
     {
       sum += series[i];
     }  
+    
+    printf("%d\n", sum);
