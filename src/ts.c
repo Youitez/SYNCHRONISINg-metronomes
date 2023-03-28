@@ -104,3 +104,6 @@ double get_SMA(int* series, int n, int m)
     }  
     
     printf("%d\n", sum);
+  
+    sma = sum / m;
+  }
