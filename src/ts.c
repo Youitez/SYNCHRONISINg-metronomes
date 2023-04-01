@@ -107,3 +107,5 @@ double get_SMA(int* series, int n, int m)
   
     sma = sum / m;
   }
+  
+  return sma;
