@@ -112,3 +112,5 @@ double get_SMA(int* series, int n, int m)
 }
 
 /*
+void plot(int* series, int n)
+{
