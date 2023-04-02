@@ -109,3 +109,6 @@ double get_SMA(int* series, int n, int m)
   }
   
   return sma;
+}
+
+/*
