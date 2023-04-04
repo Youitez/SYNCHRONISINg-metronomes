@@ -114,3 +114,7 @@ double get_SMA(int* series, int n, int m)
 /*
 void plot(int* series, int n)
 {
+  int i = 0;
+  int* plot_series = malloc(DEFAULT_CONSOLE_WIDTH * sizeof(int));
+  
+  for(i=0;i<DEFAULT_CONSOLE_WIDTH;i++)
