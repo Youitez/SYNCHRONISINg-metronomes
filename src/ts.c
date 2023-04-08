@@ -118,3 +118,10 @@ void plot(int* series, int n)
   int* plot_series = malloc(DEFAULT_CONSOLE_WIDTH * sizeof(int));
   
   for(i=0;i<DEFAULT_CONSOLE_WIDTH;i++)
+  {
+    plot_series[i] = series[i];
+  }
+  
+  i = 0;
+  
+  int lowest = min(plot_series, DEFAULT_CONSOLE_WIDTH);
