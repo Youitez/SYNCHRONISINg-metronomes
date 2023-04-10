@@ -127,3 +127,8 @@ void plot(int* series, int n)
   int lowest = min(plot_series, DEFAULT_CONSOLE_WIDTH);
   int highest = max(plot_series, DEFAULT_CONSOLE_WIDTH);
   double slice = range(plot_series, DEFAULT_CONSOLE_WIDTH) / DEFAULT_CONSOLE_HEIGHT;
+  
+  for(i=0;i<DEFAULT_CONSOLE_WIDTH;i++)
+  {
+    printf
+  }
