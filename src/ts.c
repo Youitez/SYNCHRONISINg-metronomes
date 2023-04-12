@@ -132,3 +132,7 @@ void plot(int* series, int n)
   {
     printf
   }
+  
+  free(plot_series);
+}
+*/
