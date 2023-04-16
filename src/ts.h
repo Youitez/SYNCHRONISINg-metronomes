@@ -7,3 +7,5 @@
 
 // descriptive statistics and measures of central tendency
 double get_mean(int* series, int n);
+int get_median(int* series, int n);
+int get_mode(int* series, int n);
