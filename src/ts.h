@@ -9,3 +9,6 @@
 double get_mean(int* series, int n);
 int get_median(int* series, int n);
 int get_mode(int* series, int n);
+int get_min(int* series, int n);
+int get_max(int* series, int n);
+int get_range(int* series, int n);
