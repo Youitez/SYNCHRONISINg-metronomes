@@ -15,3 +15,4 @@ int get_range(int* series, int n);
 double get_stddev(int* series, int n);
 
 // time series functions
+double SMA(int* series, int n, int m);
